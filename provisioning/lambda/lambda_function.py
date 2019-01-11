@@ -55,16 +55,17 @@ class RequestIdAdapter(logging.LoggerAdapter):
         return '%s]: %s' % (self.extra['request_id'], msg), kwargs
 
 regions = [
-    {"name": "us-east-1", "lat": "33.9", "lon": "-77.0"},
-    {"name": "us-east-2", "lat": "40.4", "lon": "-82.9"},
-    {"name": "us-west-2", "lat": "43.9", "lon": "-120.7"},
-    {"name": "ap-northeast-2", "lat": "37.5", "lon": "126.9"},
-    {"name": "ap-southeast-1", "lat": "1.2", "lon": "103.8"},
-    {"name": "ap-southeast-2", "lat": "-33.8", "lon": "151.2"},
-    {"name": "ap-northeast-1", "lat": "34.6", "lon": "139.4"},
-    {"name": "eu-central-1", "lat": "50.1", "lon": "8.6"},
-    {"name": "eu-west-1", "lat": "53.3", "lon": "-6.2"},
-    {"name": "eu-west-2", "lat": "51.5", "lon": "-0.1"}
+    {"name": "ap-northeast-1", "lat": "35.9", "lon": "140.0"},
+    {"name": "eu-west-1", "lat": "53.5", "lon": "-6.1"},
+    {"name": "ap-southeast-2", "lat": "-33.7", "lon": "151.4"},
+    {"name": "us-east-2", "lat": "40.4", "lon": "-82.5"},
+    {"name": "eu-central-1", "lat": "50.3", "lon": "8.9"},
+    {"name": "us-east-1", "lat": "32.4", "lon": "-98.0"},
+    {"name": "ap-northeast-2", "lat": "37.8", "lon": "127.2"},
+    {"name": "ap-southeast-1", "lat": "1.5", "lon": "104.1"},
+    {"name": "ap-south-1", "lat": "19.1", "lon": "73.0"},
+    {"name": "us-west-2", "lat": "44.2", "lon": "-120.5"},
+    {"name": "eu-west-2", "lat": "51.7", "lon": "0.1"}
 ]
 
 default_region = "eu-west-2"
