@@ -1,6 +1,6 @@
 # Global IoT Device Provisioning
 
-This repository contains the sample implementation for AWS Global IoT Device Provisioning. The architecture and how the solution works has been published in the [AWS IoT Blog](https://aws-blogs-prod.amazon.com/iot/).
+This repository contains the sample implementation for AWS Global IoT Device Provisioning. The architecture and how the solution works has been published in the [AWS IoT Blog](https://aws.amazon.com/blogs/iot/provision-devices-globally-with-aws-iot/).
 
 This document will guide you to the process to setup the required AWS resources. A virtual device is provided which can be used to test the sample implementation.
 
